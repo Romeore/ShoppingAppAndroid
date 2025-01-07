@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293129229488",
+    "project_id": "hitshoppingapp",
+    "storage_bucket": "hitshoppingapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293129229488:android:3a24db3307923b00335775",
+        "android_client_info": {
+          "package_name": "com.example.hitshoppingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Z7GNBFXSeTDGS6yaQRukEqyZB68p8Ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

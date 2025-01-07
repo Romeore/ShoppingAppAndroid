@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F0F0"
+    tools:context=".fragments.FragmentRegister">
+
+    <EditText
+        android:id="@+id/textRegisterEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/black"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp"
+        android:background="@drawable/border"
+    android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/textRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:background="@drawable/border"
+    android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/textRegisterPasswordAgain"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:hint="Password again"
+        android:textColorHint="@android:color/black"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:background="@drawable/border"
+    android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/textRegisterPhone"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:hint="Phone Number"
+        android:textColorHint="@android:color/black"
+        android:inputType="phone"
+        android:textSize="25sp"
+        android:background="@drawable/border"
+    android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonAfterRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:text="Register"
+        android:textSize="18sp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
