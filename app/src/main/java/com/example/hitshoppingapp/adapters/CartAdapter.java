@@ -50,11 +50,13 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder> 
 
     @Override
     public void onBindViewHolder(@NonNull CartAdapter.MyViewHolder holder, int position) {
-        Item item = shoppingCart.get(position);
 
-        holder.textViewName.setText(shoppingCart.get(position).getName());
-        holder.editCountView.setText(String.valueOf(shoppingCart.get(position).getCount()));
-        holder.imageView.setImageResource((int)shoppingCart.get(position).getImage());
+        int reversedPosition = getItemCount() - position - 1;
+        Item item = shoppingCart.get(reversedPosition);
+
+        holder.textViewName.setText(shoppingCart.get(reversedPosition).getName());
+        holder.editCountView.setText(String.valueOf(shoppingCart.get(reversedPosition).getCount()));
+        holder.imageView.setImageResource((int)shoppingCart.get(reversedPosition).getImage());
 
         holder.editCountView.addTextChangedListener(new TextWatcher() {
             @Override
